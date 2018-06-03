@@ -1,0 +1,46 @@
+
+html,
+body {
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+}
+.nav-style {
+    background: #fff;
+    color: #444;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    border-color: transparent;
+}
+.btn-default > i {
+    color: #99abb4 ;
+    font-size: 15px;
+}
+.btn-default > i ,
+.btn-primary > i ,
+.btn-warning > i ,
+.btn-danger  > i {
+    font-size: 15px;
+}
+#cm-menu-content {
+    border: none;
+    -webkit-box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+}
+
+header .dropdown-menu {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    border-color: rgba(120, 130, 140, 0.13);
+}
+
+.cm-menu-items li a {
+    white-space: normal;
+    padding: 0px 115px 0px 20px;
+}
+.cm-menu-items li a i{
+    padding-right: 20px;
+    font-size: 15px;
+}
